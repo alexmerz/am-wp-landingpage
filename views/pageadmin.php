@@ -18,6 +18,6 @@ class Admin_Landingpage {
     }
 
     public function view() {
-        
+        // wp_enqueue_script( 'am-wp-landingpage', plugins_url( '/wp-content/assets/lp.js', __FILE__ ), array( 'jquery' ) );    
     }
 }
